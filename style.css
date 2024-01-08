@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", "serif";
+    color: #2D2E32;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 30px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,.09);;
+}
+
+.websiteLogo {
+    font-weight: 800;
+}
+
+.navbarItems {
+    list-style: none;
+    font-weight: 400;
+    display: flex;
+    gap: 16px;
+    margin-right:50px;
+}
+
+.navbarItems> li {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.commonLitems {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 75%;
+    gap: 100px;
+}
+
+.detailsImage {
+    align-items: center;
+    display: flex;
+    gap: 8rem;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.leftDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.detailsHeading {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.detailsBody {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.displayIcons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.githubIcon:hover {
+    color: #147EFB;
+}
+
+.rightImage {
+    -webkit-animation: morph 8s ease-in-out infinite;
+    animation: morph 8s ease-in-out infinite;
+    background-image: url(/static/media/pfp_webp.f334283….webp);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #2d2e32;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    height: 20rem;
+    position: relative;
+    transition: all 1s ease-in-out;
+    width: 50%;
+}
+
+/* detailsImage>img {
+    height: 35rem;
+    width: 35rem;
+} */
+
+.imageIcons {
+    height: 10px;
+    width: 10px;
+}
+
+.technologiesStack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 45px;
+}
+
+.imageIcons {
+    height: 50px;
+    width: 50px;
+}
+
+.techStack {
+    font-size: 20px;
+    border-right: 2px solid rgba(45,46,50,.5);
+    color: #2d2e32;
+    font-family: Mulish,sans-serif;
+    font-weight: 600;
+    margin-right: 3rem;
+    padding-right: 2rem;
+}
