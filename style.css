@@ -51,11 +51,12 @@
     justify-content: center;
     flex-direction: column;
     margin: auto;
-    width: 75%;
+    width: 70%;
     gap: 100px;
 }
 
 .detailsImage {
+    position: relative;
     margin-top: 50px;
     align-items: center;
     display: flex;
@@ -84,14 +85,17 @@
 }
 
 .displayIcons {
+    position: absolute;
     display: flex;
+    bottom: 0;
     gap: 15px;
-    margin-top: 20px;
 }
 
 .githubIcon:hover {
     color: #147EFB;
     font-size: 2.5rem;
+    transition-timing-function: ease-in-out;
+    transition: 0.3s;
 }
 
 .rightImage {
@@ -109,11 +113,6 @@
     width: 35%;
 }
 
-.imageIcons {
-    height: 10px;
-    width: 10px;
-}
-
 .technologiesStack {
     display: flex;
     justify-content: center;
@@ -127,6 +126,12 @@
     width: 50px;
 }
 
+.imageIcons:hover {
+    transform: translate(0px, -10px);
+    transition-timing-function: ease-in-out;
+    transition: 0.4s;
+}
+
 .techStack {
     font-family: "Montserrat";
     font-weight: 600;
@@ -138,23 +143,25 @@
 }
 
 .imgWeb {
-    width: 70%;
+    width: 72%;
     border-radius: 25px;
+    height: 400px;
 }
 
 .about {
     padding-top: 65px;
+    padding-bottom: 150px;
     display: grid;
     grid-template-areas: "i a"
                          "i h"
                          "i m";
+
 }
 
 .one {
     grid-area: i;
     margin-right: -100px;
 }
-
 
 
 .two {
@@ -168,16 +175,111 @@
     grid-area: h;
     font-weight: 700;
     font-size: 25px;
+    margin-top: -10px;
 }
 
 .four {
     grid-area: m;
+    font-family: "Mulish", ser;
     color: rgb(118, 118, 118);
     text-align: justify;
-    font-size: 1.7 rem;
-    font-family: "Mulish", ser;
+    /* font-size: 3 rem; */
+    /* margin-top: -80px; */
+    font-size: 18px;
 }
 
 .demo12 {
     padding-top: 65px;
+}
+
+.project--group {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.project-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project-quote {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.project--header {
+    color: #147EFB;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.project--one {
+    /* background-color: #147EFB; */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.project--one {
+    display: flex;
+    gap: 25px;
+    padding: 25px;
+}
+
+.project--image>img {
+    width: 550px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.project--details {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.project-name {
+    font-size: 20px;
+    color: #147EFB;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.project-description {
+    line-height: 1.5rem;
+    color: rgb(118, 118, 118);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.technologies-used {
+    display: flex;
+    gap: 15px;
+    /* margin-top: 10px; */
+}
+
+.technology {
+    padding: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+.project-code {
+    display: flex;
+    gap: 20px;
+}
+
+.project--githubLink1, .project--link1 {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 10px;
 }
