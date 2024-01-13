@@ -150,7 +150,7 @@
 
 .about {
     padding-top: 65px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     display: grid;
     grid-template-areas: "i a"
                          "i h"
@@ -282,4 +282,10 @@
     justify-content: center;
     gap: 6px;
     margin-top: 10px;
+}
+
+.project--list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
