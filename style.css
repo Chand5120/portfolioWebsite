@@ -289,3 +289,32 @@
     flex-direction: column;
     gap: 50px;
 }
+
+.footer--icons, .footer--text {
+    color: #fff;
+    stroke: #fff;
+}
+
+.footer--icons:hover {
+    transition: 0.7s;
+    transform: scale(1.4);
+}
+
+.footer--icon1 {
+    margin-right: 10px;
+}
+
+.footer--end {
+    background-color: #2D2E32;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer--container {
+    display: flex;
+    width: 921px;
+    justify-content: space-between;
+    align-items: center;
+}
