@@ -8,14 +8,18 @@
     color: #2D2E32;
 }
 
+body {
+    position: relative;
+}
+
 .navbar {
     z-index: 1;
     overflow: hidden;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
-    padding: 25px 30px;
+    padding: 1.56rem 1.87rem;
     box-shadow: 0px 5px 10px rgba(0,0,0,.09);
     background-color: #fff;
 }
@@ -28,13 +32,13 @@
     list-style: none;
     font-weight: 400;
     display: flex;
-    gap: 16px;
-    margin-right:50px;
+    gap: 1rem;
+    margin-right:3.1rem;
 }
 
 .navbarItems> li {
     font-weight: 600;
-    font-size: 17px;
+    font-size: 1.1rem;
 }
 
 .navbarItems> li>a:hover, .websiteLogo:hover {
@@ -46,18 +50,18 @@
 }
 
 .container {
-    padding-top: 60px;
+    padding-top: 3.75rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin: auto;
-    width: 70%;
+    max-width: 70%;
     gap: 100px;
 }
 
 .detailsImage {
     position: relative;
-    margin-top: 50px;
+    margin-top: 6.25rem;
     align-items: center;
     display: flex;
     gap: 10rem;
@@ -68,27 +72,28 @@
 .leftDetails {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    width: 50%;
+    gap: 1.25rem;
+    max-width: 50%;
 }
 
 .detailsHeading {
-    font-size: 55px;
+    font-size: 3.4rem;
     font-weight: 700;
-    line-height: 65px;
+    line-height: 4.06rem;
 }
 
 .detailsBody {
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 1.8rem;
 }
 
 .displayIcons {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
+    margin-top: 0.9rem;
     bottom: 0;
-    gap: 15px;
+    gap: 0.9rem;
 }
 
 .githubIcon:hover {
@@ -110,20 +115,20 @@
     height: 20rem;
     position: relative;
     transition: all 1s ease-in-out;
-    width: 35%;
+    max-width: 35%;
 }
 
 .technologiesStack {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
-    margin-top: 45px;
+    gap: 1.5rem;
+    margin-top: 2.8rem;
 }
 
 .imageIcons {
-    height: 50px;
-    width: 50px;
+    height: 3.1rem;
+    max-width: 3.1rem;
 }
 
 .imageIcons:hover {
@@ -135,7 +140,7 @@
 .techStack {
     font-family: "Montserrat";
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #2d2e32;
     margin-right: 2rem;
     padding-right: 3rem;
@@ -143,14 +148,14 @@
 }
 
 .imgWeb {
-    width: 72%;
-    border-radius: 25px;
-    height: 400px;
+    max-width: 72%;
+    border-radius: 1.5rem;
+    height: 25rem;
 }
 
 .about {
-    padding-top: 65px;
-    padding-bottom: 100px;
+    padding-top: 4rem;
+    padding-bottom: 6.25rem;
     display: grid;
     grid-template-areas: "i a"
                          "i h"
@@ -160,7 +165,7 @@
 
 .one {
     grid-area: i;
-    margin-right: -100px;
+    margin-right: -6.25rem;
 }
 
 
@@ -168,14 +173,14 @@
     grid-area: a;
     color: #147EFB;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .three {
     grid-area: h;
     font-weight: 700;
-    font-size: 25px;
-    margin-top: -10px;
+    font-size: 1.5rem;
+    margin-top: -0.6rem;
 }
 
 .four {
@@ -185,52 +190,52 @@
     text-align: justify;
     /* font-size: 3 rem; */
     /* margin-top: -80px; */
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 .demo12 {
-    padding-top: 65px;
+    padding-top: 4rem;
 }
 
 .project--group {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 3.1rem;
 }
 
 .project-text {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.6rem;
 }
 
 .project-quote {
     font-weight: 700;
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 
 .project--header {
     color: #147EFB;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .project--one {
     /* background-color: #147EFB; */
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    border-radius: 1.25rem;
 }
 
 .project--one {
     display: flex;
-    gap: 25px;
-    padding: 25px;
+    gap: 1.5rem;
+    padding: 1.25rem;
 }
 
 .project--image>img {
-    width: 550px;
-    height: 350px;
-    border-radius: 20px;
+    max-width: 34.3rem;
+    height: 21.8rem;
+    border-radius: 1.25rem;
 }
 
 .project--details {
@@ -239,11 +244,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .project-name {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #147EFB;
     font-weight: 700;
     text-transform: uppercase;
@@ -253,25 +258,25 @@
     line-height: 1.5rem;
     color: rgb(118, 118, 118);
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 .technologies-used {
     display: flex;
-    gap: 15px;
+    gap: 0.9rem;
     /* margin-top: 10px; */
 }
 
 .technology {
-    padding: 10px;
+    padding: 0.6rem;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
+    border-radius: 0.9rem;
     font-weight: 500;
 }
 
 .project-code {
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .project--githubLink1, .project--link1 {
@@ -280,14 +285,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 6px;
-    margin-top: 10px;
+    gap: 0.37rem;
+    margin-top: 0.6rem;
 }
 
 .project--list {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 3.125rem;
 }
 
 .footer--icons, .footer--text {
@@ -301,12 +306,12 @@
 }
 
 .footer--icon1 {
-    margin-right: 10px;
+    margin-right: 0.6rem;
 }
 
 .footer--end {
     background-color: #2D2E32;
-    height: 100px;
+    height: 6.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -314,7 +319,38 @@
 
 .footer--container {
     display: flex;
-    width: 921px;
+    max-width: 57.5rem;
     justify-content: space-between;
     align-items: center;
+}
+
+.footer--end {
+    margin-top: 3.125rem;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 5px;
+    top: 35px;
+    transform: translate(-50%, -50%);
+    right: 100px;
+}
+
+.hamburger > div {
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    /* visibility: hidden; */
+}
+
+@media screen and (max-width: 700px) {
+    .navbarItems {
+        display: none;
+    }
+
+    /* .hamburger {
+        visibility: visible;
+    } */
 }
