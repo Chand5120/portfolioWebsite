@@ -303,7 +303,7 @@ body {
 
 .contact__title p {
     color: #147efb;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
     text-transform: uppercase;
@@ -311,7 +311,7 @@ body {
 
 .contact__title h3 {
     color: #2d2e32;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .contact__icons {
@@ -332,11 +332,11 @@ body {
     background-color: #fff;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
-    color: #147efb;
     display: flex;
-    height: 5rem;
+    height: 3rem;
     justify-content: center;
-    width: 5rem;
+    width: 3rem;
+    color: #147efb;
 }
 
 .contact__info {
@@ -347,13 +347,13 @@ body {
 
 .contact__info h3 {
     color: #2d2e32;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .contact__info a, .contact__info p {
     color: #767676;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-decoration: none;
 }
 
